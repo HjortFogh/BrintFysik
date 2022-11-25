@@ -39,9 +39,6 @@ class Atom {
         this.electronSpeed = 0.01;
 
         this.isDragging = false;
-
-        // for (let i = 0; i < 5; i++) print("Orbit " + i + ": " + this.indexToEnergy(i));
-        this.jumpOrbit(1, 3);
     }
 
     startDrag() {
@@ -58,7 +55,7 @@ class Atom {
             let i = min(max(this.radiusToIndex(d), 0), NUM_RINGS - 1);
             if (this.electronIndex != i) this.jumpOrbit(this.electronIndex, i);
             this.electronIndex = i;
-            this.electronAngle = atan2(this.xPos - mouseY, this.yPos - mouseX) + PI;
+            this.electronAngle = atan2(this.yPos - mouseY, this.xPos - mouseX) + PI;
         }
     }
 
