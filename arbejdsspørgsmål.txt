@@ -1,0 +1,12 @@
+Info om simulation
+    For at starte simulationen, åbner du 'index.html'
+    Du kan hive i elektronen med musen, for at ændre skallen
+    Du kan ændre simulations-hastigheden oppe i venstre hjørne
+
+Arbejdsspørgsmål
+    1. Hvilken bølgelængde har fotonet når elektronen hopper fra 2. til 4. skal
+    2. Hvilken frekvens har fotonet, hvis elektronen hopper fra 6. til 2. skal
+    3. Hvor mange elektronvolt [eV] har elektronen i 3. skal
+    Ekstra-opgave:
+    Gå ind i koden og find variablen 'NUM_RINGS', og sæt den til 100
+    1. Udregn frekvensen af alle fotoner, når elektronen hoppper fra n. (2 til 100) skal til 1. skal
